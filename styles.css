@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+         body{
+         background-color: black;
+         color:white;
+         font-family: 'Prompt', sans-serif;
+         }
+         .section{
+         background-color:green;
+         border: 5px solid white;
+         margin-left: 10rem;
+         margin-right:30rem;
+         padding-left:5rem;
+         padding-bottom:3rem;
+         }
+         .label{
+         font-weight:bold;
+         font-size:larger;
+         }
+         #output table, th, td {
+         padding: 0.2rem;
+         width:30rem;
+         border: 2px solid white;
+         border-collapse: collapse;
+         }
+         #checkBtn{
+            background-color:black;
+            color:white;
+            font-weight:bolder;
+            cursor:pointer;
+            width:5rem;
+         }
