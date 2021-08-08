@@ -22,10 +22,6 @@
          border: 2px solid white;
          border-collapse: collapse;
          }
-         #checkBtn{
-            background-color:black;
-            color:white;
-            font-weight:bolder;
-            cursor:pointer;
-            width:5rem;
-         }
+       .cashGivenInput{
+           display:none;
+       }

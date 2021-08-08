@@ -1,7 +1,16 @@
 var btn=document.querySelector("#checkBtn");
+var nxtbtn=document.querySelector("#nextBtn");
 var errorMsgVar=document.querySelector(".errorMsg");
+var billAmtvar=document.querySelector("#billAmt");
 
 btn.addEventListener("click", newFunc );
+nxtbtn.addEventListener("click",nextShow);
+var cashGivenVar=document.querySelector(".cashGivenInput")
+function nextShow(){
+    if(billAmtvar.value>0){
+        cashGivenVar.style.display = "block";
+    }
+}
 
 function valueReset(){
     var i=0;
