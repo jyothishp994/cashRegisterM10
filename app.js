@@ -2,10 +2,18 @@ var btn=document.querySelector("#checkBtn");
 var nxtbtn=document.querySelector("#nextBtn");
 var errorMsgVar=document.querySelector(".errorMsg");
 var billAmtvar=document.querySelector("#billAmt");
+var changeReturnvar=document.querySelector(".changeReturn");
+
 
 btn.addEventListener("click", newFunc );
 nxtbtn.addEventListener("click",nextShow);
 var cashGivenVar=document.querySelector(".cashGivenInput")
+
+function showResult()
+{
+    console.log("clicked")
+    changeReturnvar.style.display = "block";
+}
 function nextShow(){
     if(billAmtvar.value>0){
         cashGivenVar.style.display = "block";
@@ -48,6 +56,7 @@ if (bal<0)
 }
 else if(bal==0){
     console.log('Sufficient Amount');
+    errorMsgVar.innerText='Sufficient Amount'
 }
 else{
 
@@ -76,7 +85,7 @@ var i=0;
 
 console.log(notes);
 console.log(notes_num);
-
+showResult();
 }
 
 };
