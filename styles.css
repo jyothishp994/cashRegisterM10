@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
          body{
-         background-color: black;
+         background-color: green;
          color:white;
          font-family: 'Prompt', sans-serif;
+         margin:0 auto;
+         text-align: center;
          }
          .section{
+<<<<<<< HEAD
+         
+        
+         padding-bottom:3rem;
+         text-align:center;
+
+=======
          background-color:green;
          border: 5px solid white;
          margin:0 auto;
          padding-bottom:3rem;
          text-align:center;
+<<<<<<< Updated upstream
+=======
+>>>>>>> 270341651cbbbb489b7f464fba1a941318e5801d
+>>>>>>> Stashed changes
          }
          .label{
          font-weight:bold;
          font-size:larger;
          }
          #output table, th, td {
-         padding: 0.2rem;
-         width:30rem;
+         padding: 0.5rem;
+         width:auto;
          border: 2px solid white;
          border-collapse: collapse;
          margin:0 auto;
